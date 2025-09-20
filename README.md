@@ -62,3 +62,6 @@ A production-ready embedded Linux gateway built with **Yocto Project** for Raspb
 keep it has it is but only modify kirkstone not scrapgarth
 
 For a detailed task roadmap and pending features, see [TODO.md](TODO.md)
+
+OUTPUT screenshot(TODO Detailed video)
+![alt text](<output image.png>)
