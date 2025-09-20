@@ -1,0 +1,24 @@
+# VS Code folder and settings
+.vscode/
+settings.json
+
+# CMake build artifacts and generated files
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+Makefile
+Makefile2
+build/
+a.out
+*.marks
+*.o
+
+# Executables
+pi-rtos-gateway
+
+# Compiled object files
+*.o
+
+# Other generated/temporary files
+*.log
