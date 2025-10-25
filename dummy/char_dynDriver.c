@@ -23,6 +23,7 @@ static struct file_operations fops =
     .read = dev_read,
     .write = dev_write,
     .release = dev_release,
+    //test1
 };
 
 // Called when the module is loaded
@@ -35,6 +36,7 @@ static int __init simple_char_init(void)
     }
     printk(KERN_INFO "SimpleChar: registered with major number %d\n", major_number);
     return 0;
+     //test2
 }
 
 // Called when the module is unloaded
@@ -62,6 +64,10 @@ static ssize_t dev_read(struct file *filep, char __user *buffer, size_t len, lof
     } else {
         printk(KERN_INFO "SimpleChar: Failed to send %d characters to the user\n", errors);
         return -EFAULT;
+         //test1
+          //test1
+           //test1
+            //test1
     }
 }
 
